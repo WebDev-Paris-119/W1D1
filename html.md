@@ -56,6 +56,7 @@ Examples of semantic tags:
 - headings
 - `article`
 - `picture`
+- `kbd`
 - `ol`
 
 Examples of non-semantic tags:

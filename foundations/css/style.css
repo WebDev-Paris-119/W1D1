@@ -1,0 +1,67 @@
+/* 
+- Named colors
+
+color: blue;
+color: dodgerblue:
+
+- Hex colors
+color: #FF0000
+color: #FF00FF
+color: #94A50B
+color: #F00
+color: #F0F
+
+- RGB
+
+color: rgb(125 200 15)
+
+- RGBA
+
+color: rgba(125 200 15 / .75)
+
+- HSL
+color: hsl(240 75% 30%)
+
+Hex / rgb are the most commons (Personal favorite: hsl)
+
+*/
+
+nav {
+	font-size: 32px;
+}
+
+body {
+	background: linear-gradient(red, yellow);
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+#navbar {
+	background: hsl(170 20% 75%);
+}
+
+article#main-cat {
+	background-image: url(https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1443&q=80);
+	background-position: center;
+	background-size: cover;
+	padding: 16px;
+}
+
+#main-cat {
+}
+
+.first-span {
+	color: red;
+	font-weight: 700;
+}
+
+.card {
+	background: antiquewhite;
+	& h3 {
+		color: dodgerblue;
+	}
+}
+
+#sea-picture {
+	width: 600px;
+}
