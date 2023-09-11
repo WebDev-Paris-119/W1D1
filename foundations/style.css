@@ -1,0 +1,28 @@
+/* 
+- Named colors
+
+color: blue;
+color: dodgerblue:
+
+- Hex colors
+color: #FF0000
+color: #FF00FF
+color: #94A50B
+color: #F00
+color: #F0F
+color: #
+
+- RGB
+
+color: rgb(125 200 15)
+
+- RGBA
+
+color: rgba(125 200 15 / .75)
+
+- HSL
+color: hsl(240 75% 30%)
+
+Hex / rgb are the most commons (Personal favorite: hsl)
+
+*/
